@@ -221,7 +221,7 @@ Detailed comparison reveals superior feature extraction and detection confidence
 
 ![Feature Analysis](images/Fig16.png)
 
-*Figure 4: Detection quality comparison and feature extraction visualization*
+*Figure 3: Detection quality comparison and feature extraction visualization*
 
 #### **Detection Confidence Comparison:**
 

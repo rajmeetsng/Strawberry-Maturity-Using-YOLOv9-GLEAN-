@@ -1,0 +1,74 @@
+# Glen Algorithm Configuration for Strawberry Detection
+
+glen:
+  # Enable/disable Glen algorithm
+  enabled: true
+  
+  # Non-Maximum Suppression threshold
+  # Lower values = more aggressive filtering
+  # Range: 0.0 - 1.0
+  nms_threshold: 0.45
+  
+  # Confidence threshold for detections
+  # Range: 0.0 - 1.0
+  confidence_threshold: 0.25
+  
+  # Context window size for contextual refinement
+  # Defines how many pixels around the detection to analyze
+  # Range: 1 - 10
+  context_window: 3
+  
+  # Feature scales for multi-scale fusion
+  # Multiple scales help detect strawberries of different sizes
+  feature_scales: [0.5, 1.0, 2.0]
+  
+  # Number of iterative refinement passes
+  # More iterations = better accuracy but slower
+  # Range: 0 - 5
+  refinement_iterations: 2
+  
+  # Advanced settings
+  advanced:
+    # Color-based confidence adjustment
+    use_color_analysis: true
+    
+    # Sharpness-based quality filtering
+    use_sharpness_filter: true
+    
+    # Edge-based box refinement
+    use_edge_refinement: true
+    
+    # Minimum box area (in pixels)
+    min_box_area: 100
+    
+    # Maximum box area (in pixels)
+    max_box_area: 100000
+    
+    # Aspect ratio constraints (width/height)
+    min_aspect_ratio: 0.5
+    max_aspect_ratio: 2.0
+
+# Model settings
+model:
+  # Input image size
+  img_size: 640
+  
+  # Batch size for inference
+  batch_size: 1
+  
+  # FP16 inference (faster but less precise)
+  fp16: false
+
+# Post-processing
+post_processing:
+  # Maximum detections per image
+  max_detections: 100
+  
+  # Merge nearby detections
+  merge_detections: true
+  merge_threshold: 0.3
+  
+  # Filter detections by size
+  filter_by_size: true
+  min_size: 20  # pixels
+  max_size: 500  # pixels

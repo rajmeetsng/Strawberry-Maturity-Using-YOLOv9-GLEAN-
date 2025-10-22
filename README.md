@@ -112,21 +112,21 @@ The GLEN-enhanced YOLOv9 architecture can be customized in `models/yolov9-glen.y
 ```
 strawberry-detection-yolov9/
 ├── models/
-│   ├── yolov9.py          # YOLOv9 implementation
-│   ├── glen.py            # GLEN module
-│   └── yolov9-glen.yaml   # Model configuration
+│   ├── yolov9_wrapper.py  # YOLOv9 implementation
+│   ├── glen_algorithm.py  # GLEN module
+│   
 ├── utils/
-│   ├── datasets.py        # Dataset loading
+│   ├── visualization.py   # Dataset loading
 │   ├── general.py         # General utilities
 │   ├── metrics.py         # Evaluation metrics
-│   └── plots.py           # Visualization
+│   
 ├── data/
-│   └── strawberry.yaml    # Dataset configuration
+│   └── data.yaml         # Dataset configuration
 ├── weights/               # Model weights
 ├── scripts/              # Utility scripts
 ├── detect.py             # Inference script
 ├── train.py              # Training script
-├── val.py                # Validation script
+├── evaluate.py           # Validation script
 └── requirements.txt      # Dependencies
 ```
 

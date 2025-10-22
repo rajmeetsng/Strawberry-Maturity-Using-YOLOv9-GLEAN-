@@ -435,6 +435,14 @@ If you use this code in your research, please cite:
   year={2024},
   publisher={IEEE}
 }
+
+@article{singh2025UAV,
+  title={Robust real-time strawberry maturity detection using UAV-mounted deep learning for precision agriculture},
+  author={Singh, Rajmeet and Gadade, A M and Hussain, Irfan},
+  journal={BMC Plant Biology},
+  year={2025},
+  publisher={Springer}
+}
 ```
 
 ## License

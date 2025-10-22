@@ -1,0 +1,39 @@
+# Core Dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.23.0
+opencv-python>=4.8.0
+Pillow>=9.5.0
+PyYAML>=6.0
+tqdm>=4.65.0
+
+# YOLOv9 Dependencies
+matplotlib>=3.7.0
+scipy>=1.10.0
+seaborn>=0.12.0
+pandas>=2.0.0
+tensorboard>=2.13.0
+
+# Visualization
+plotly>=5.14.0
+
+# Image Processing
+albumentations>=1.3.0
+imgaug>=0.4.0
+
+# Utilities
+requests>=2.31.0
+psutil>=5.9.0
+thop>=0.1.1
+
+# Export
+onnx>=1.14.0
+onnxruntime>=1.15.0
+onnx-simplifier>=0.4.0
+
+# Evaluation
+scikit-learn>=1.3.0
+pycocotools>=2.0.6
+
+# Optional: GPU monitoring
+gputil>=1.4.0

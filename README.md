@@ -181,7 +181,7 @@ Our system demonstrates excellent detection capabilities across diverse scenario
 
 Comprehensive comparison with baseline models shows superior convergence:
 
-![Training Curves](images/Fig15_1.png)
+![Training Curves](images/Fig15.1.png)
 
 *Figure 3: Training metrics comparison - YOLOv9-GELAN vs. baseline models*
 

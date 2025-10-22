@@ -450,5 +450,5 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) 
 ## Contact
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/strawberry-detection-yolov9/issues)
-- **Email**: your.email@example.com
+- **Email**: rajmeetsng@gmail.com
 

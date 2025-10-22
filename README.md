@@ -7,18 +7,15 @@ A state-of-the-art strawberry detection system combining YOLOv9 with the Global-
 - **YOLOv9 Architecture**: Latest YOLO version with improved detection accuracy
 - **GLEN Algorithm**: Global-Local Enhancement Network for better feature extraction
 - **Real-time Detection**: Fast inference suitable for real-world applications
-- **High Accuracy**: Optimized for strawberry detection in various conditions
 - **Easy Training**: Simple pipeline for custom dataset training
-- **Multiple Output Formats**: Support for visualization, JSON, and CSV outputs
+
 
 ## Architecture
 
 The system combines:
 1. **YOLOv9 Backbone**: For robust object detection
 2. **GLEN Module**: Enhances both global and local features
-   - Global branch: Captures contextual information
-   - Local branch: Focuses on fine-grained details
-   - Feature fusion: Combines both for optimal detection
+
 
 ## Installation
 

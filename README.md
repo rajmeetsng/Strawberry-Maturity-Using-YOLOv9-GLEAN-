@@ -185,12 +185,12 @@ python detect.py --source image.jpg --augment --agnostic-nms --save-txt --save-c
 If you use this code in your research, please cite:
 
 ```bibtex
-@misc{strawberry-yolov9-glen,
-  author = {Your Name},
-  title = {Strawberry Detection with YOLOv9 and GLEN},
-  year = {2024},
-  publisher = {GitHub},
-  url = {https://github.com/yourusername/strawberry-detection-yolov9}
+@article{singh2024deep,
+  title={A deep learning-based approach to strawberry grasping using a telescopic-link differential drive mobile robot in ros-gazebo for greenhouse digital twin environments},
+  author={Singh, Rajmeet and Seneviratne, Lakmal and Hussain, Irfan},
+  journal={IEEE Access},
+  year={2024},
+  publisher={IEEE}
 }
 ```
 
